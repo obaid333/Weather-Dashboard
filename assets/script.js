@@ -48,7 +48,7 @@ for (let i = 0; i < fiveDayArray.length; i++) {
         <div class="card" style="color: #4B515D;">
             <div class="card-body p-4">
                 <div class="d-flex">
-                    <h6>${dayjs(data.dt * 1000).format('DD/MM/YYYY')}</h6>
+                    <h6>${dayjs(dateOfDay * 1000).format('DD/MM/YYYY')}</h6>
                 </div>
                 <div class="d-flex flex-column text-center mt-5 mb-4">
                     <h6 class="display-4 mb-0 font-weight-bold" style="color: #1C2331;"> ${temp}°C </h6>
