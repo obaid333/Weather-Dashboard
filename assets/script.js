@@ -16,7 +16,7 @@ getData(city);
 
 function getData(city){
 
-var coordsApiUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" +city+ "&limit=1&appid=" +apiKey;
+var coordsApiUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" +city+ "&limit=1&appid=" +apiKey;
 fetch(coordsApiUrl)
   .then(function (response) {
     return response.json();
@@ -26,7 +26,7 @@ fetch(coordsApiUrl)
     var lon = data[0].lon;
     
     
-    var Api5DayUrl = "http://api.openweathermap.org/data/2.5/forecast?lat=" +lat+ "&lon=" +lon+ "&appid="+apiKey+ "&units=metric";
+    var Api5DayUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=" +lat+ "&lon=" +lon+ "&appid="+apiKey+ "&units=metric";
     fetch(Api5DayUrl)
     .then(function (response) {
       return response.json();
