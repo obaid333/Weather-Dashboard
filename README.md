@@ -12,3 +12,5 @@ Javascript coded as per instructions by TA's from EDx.
 
 
 screenshots
+![dashboard](https://github.com/obaid333/Weather-Dashboard/assets/66852767/9b027b1f-32ca-4b0b-8948-ded769019f4f)
+
